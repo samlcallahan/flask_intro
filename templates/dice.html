@@ -1,0 +1,12 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>My Flask Application</title>
+    </head>
+    <body>
+        <h1>Roll {{n_dice}} dice!</h1>
+        {% for roll in rolls %}
+            <p>{{ roll }}</p>
+        {% endfor %}
+    </body>
+</html>
