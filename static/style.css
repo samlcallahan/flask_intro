@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(255, 145, 246);
+    background: rgb(52, 0, 110);
+    font-family: serif;
+    padding-bottom: 12px;
+}
+
+body {
+    background: rgb(240, 199, 124);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    border: 1px solid firebrick;
+    padding: 12px 76px; /* top+bottom, l+r */
+    /* top, right, bottom, left */
+}
+
+li {
+    background: yellow;
+    color: mediumspringgreen;
+}
+
+.invert-colors {
+    color: white;
+    background: black;
+}
